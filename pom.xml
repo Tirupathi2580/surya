@@ -46,6 +46,9 @@
             <artifactId>maven-war-plugin</artifactId>
             <version>3.3.0</version>
         </plugin>
+            <configuration>
+                <failOnMissingWebXml>false</failOnMissingWebXml>
+            </configuration>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.1.0</version>
